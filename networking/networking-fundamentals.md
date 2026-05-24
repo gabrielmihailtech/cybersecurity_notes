@@ -31,3 +31,10 @@ Ping use this protocol: (ICMP)- Internet Control Message Protocol
 
 - Monitor network traffic
 - Detect suspicious connections
+
+## Traffic Flow
+
+1. User enters website
+2. DNS resolves domain → IP
+3. HTTP request sent
+4. Server responds
