@@ -76,6 +76,13 @@ In this lab:
 
 ---
 
-## ✅ Summary
+## 🧪 Commands Used (Basic)
 
-Traffic analysis is a key skill in cybersecurity. It allows analysts to detect and respond to threats by examining patterns in network activity.
+grep → search for patterns in logs  
+cat → display file content  
+tail → monitor logs in real time  
+
+---
+
+## ✅ Summary
+Traffic analysis is critical for detecting and understanding cyber attacks. By analyzing patterns, identifying suspicious activity, and correlating data, SOC analysts can detect and respond to threats effectively.
