@@ -12,6 +12,10 @@ Topics:
 - Authentication events
 - Brute force detection
 - Lateral movement identification
+- Persistence detection
+- Account compromise investigation
+- Post-exploitation analysis
+- Multi-stage attack analysis
 
 Goal:
 
