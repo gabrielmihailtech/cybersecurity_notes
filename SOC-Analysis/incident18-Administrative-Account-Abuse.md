@@ -1,5 +1,5 @@
 Incident 18 – Administrative Account Abuse
-Summary
+Summary:
 A successful brute-force attack allowed an external host to authenticate as an administrator and access sensitive directories and data locations.
 Indicators:
 Attacker IP:
