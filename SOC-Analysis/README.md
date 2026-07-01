@@ -8,7 +8,6 @@ Topics:
 - IOC identification
 - Timeline reconstruction
 - Incident investigations
-- Windows event analysis
 - Authentication events
 - Brute force detection
 - Lateral movement identification
