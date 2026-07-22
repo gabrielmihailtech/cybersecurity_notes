@@ -1,12 +1,14 @@
 Incident 31 - Concurrent Account Compromise and Brute Force
 
 Suspicious IPs
+
 192.168.1.60
 192.168.1.90
 192.168.1.180
 192.168.1.220
 
 Attack Type
+
 Active Scanning
 Brute Force
 Account Compromise
@@ -15,6 +17,7 @@ Persistence
 Post-Exploitation
 
 Findings
+
 192.168.1.60 performed reconnaissance activity through requests to test and admin resources.
 192.168.1.90 successfully compromised the admin account through brute-force authentication attempts.
 192.168.1.180 accessed the david account from an unusual external IP.
@@ -28,6 +31,7 @@ Sensitive resources accessed:
 /download
 
 Timeline
+
 Normal activity observed from user david.
 Scanning activity detected from 192.168.1.60.
 David account accessed from external IP 192.168.1.180.
@@ -35,6 +39,7 @@ Successful brute-force compromise of the admin account by 192.168.1.90.
 Lateral movement, persistence and access to sensitive resources observed from 192.168.1.180.
 
 MITRE ATT&CK
+
 Active Scanning
 Brute Force
 Valid Accounts
