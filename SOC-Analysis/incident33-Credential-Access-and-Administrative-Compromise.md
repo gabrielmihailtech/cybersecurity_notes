@@ -1,18 +1,18 @@
 Incident 33 - Credential Access and Administrative Compromise
 
-Suspicious IPs
+Suspicious IPs:
 
 192.168.1.170
 192.168.1.60
 
-Attack Type
+Attack Type:
 
 Credential Access
 Account Compromise
 Privilege Escalation
 Persistence
 
-Findings
+Findings:
 
 User james account accessed from an external IP address.
 Access to:
@@ -26,7 +26,7 @@ Access to:
 The attacker returned to the james account.
 Logs were subsequently accessed.
 
-Timeline
+Timeline:
 
 James account accessed from external IP.
 Credential-related resources accessed.
@@ -34,14 +34,14 @@ Administrative account access observed.
 Sensitive resources and secrets accessed.
 Return access to the initial compromised account observed.
 
-MITRE ATT&CK
+MITRE ATT&CK:
 
 Credential Access
 Valid Accounts
 Privilege Escalation
 Persistence
 
-Conclusion
+Conclusion:
 
 The attacker demonstrated behavior consistent with credential acquisition and administrative compromise.
 Access to password and secret-related resources significantly increased the risk of broader compromise within the environment.
