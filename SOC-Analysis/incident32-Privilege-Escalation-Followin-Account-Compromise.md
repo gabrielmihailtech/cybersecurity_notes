@@ -1,11 +1,11 @@
 Incident 32 - Privilege Escalation Following Account Compromise
 
-Suspicious IPs
+Suspicious IPs:
 
 192.168.1.150
 192.168.1.60
 
-Attack Type
+Attack Type:
 
 Account Compromise
 Privilege Escalation
@@ -13,7 +13,7 @@ Persistence
 Internal Reconnaissance
 Post-Exploitation
 
-Findings
+Findings:
 
 User mike account was accessed from an external IP address.
 Access to:
@@ -29,7 +29,7 @@ Additional access to:
 /logs
 /download
 
-Timeline
+Timeline:
 
 Normal activity observed from user mike.
 Mike account accessed from external IP 192.168.1.150.
@@ -37,13 +37,13 @@ Internal resource enumeration observed.
 Access to the admin account indicating privilege escalation.
 Persistent access and post-exploitation activity observed.
 
-MITRE ATT&CK
+MITRE ATT&CK:
 
 Valid Accounts
 Privilege Escalation
 Persistence
 Discovery
 
-Conclusion
+Conclusion:
 
 An attacker used a compromised user account to gain access to administrative resources. The observed activity indicates privilege escalation, persistence and access to sensitive system resources.
