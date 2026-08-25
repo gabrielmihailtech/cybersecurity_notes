@@ -21,6 +21,13 @@ This repository contains my personal notes and practical knowledge while learnin
 - Injection concepts
 - Basic vulnerabilities
 
+### 🔍 Security Operations
+
+- SOC fundamentals
+- Alert investigation
+- Indicators of Compromise (IOCs)
+- Threat detection concepts
+
 ---
 
 ## 🎯 Goal
@@ -32,7 +39,7 @@ To build solid foundational knowledge in:
 
 
 Long-term goal:
-- Transition into Penetration Testing (ethical hacking)
+- Transition into Penetration Testing (ethical hacking) and Developing expertise in Security Operations, Threat Detection, and Incident Response
 
 ---
 
@@ -48,11 +55,13 @@ This repository is actively updated as I continue learning.
 - Log analysis
 - Threat detection techniques
 - Incident response basics
+- Microsoft Sentinel
 
 ---
 
 ## 📈 Career Path
 
-- Short-term: SOC Analyst
-- Long-term: Penetration Tester
+- Short-term: Junior Security Analyst
+- Mid-term: SOC Analyst
+- Long-term: Security Analyst specializing in Threat Detection and Incident Response /Penetration Tester
 
