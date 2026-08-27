@@ -17,7 +17,6 @@ Learned:
 
 Observed Groups:
 
-- gmihail
 - adm
 - cdrom
 - sudo
