@@ -1,5 +1,7 @@
 *****Linux Cheat Sheet*****
 
+---NAVIGATION
+
 *pwd
 
 Purpose: Display the current working directory.
@@ -32,9 +34,9 @@ users.txt
 script.sh
 
 
-*cd
+*cd dir
 
-Purpose: Change directory.
+Purpose: Change directory/ enter directory.
 
 When I use it: When navigating through the Linux filesystem.
 
@@ -42,6 +44,14 @@ Example:
 
 cd /var/log
 
+*cd ..
+Purpose: go to parent directory/ go back to previous directory
+
+*cd ~
+Purpose: go to home directory
+
+
+---FILES
 
 *mkdir
 mkdir logs
@@ -81,7 +91,8 @@ Purpose: Delete files.
 
 When I use it: When removing unnecessary files.
 
--->Reading Files
+
+---READING FILES
 
 
 *cat
@@ -137,7 +148,7 @@ When I use it: When files are too large for cat.
 
 *q
 
--->Search and Filtering
+---SEARCH and FILTERING
 
 
 *grep
@@ -187,7 +198,8 @@ Meaning:
 
 Find all Failed entries and count them.
 
--->Sorting and Counting
+
+---SORTING and COUNTING
 
 
 *sort
@@ -219,7 +231,8 @@ Output:
 2 guest
 2 root
 
--->Finding Files
+
+---FINDING FILES
 
 
 *find
@@ -248,7 +261,7 @@ find . -type d
 Purpose: Display directories only.
 
 
--->Users and Groups
+---USERS and GROUPS
 
 
 *whoami
@@ -280,7 +293,8 @@ cat /etc/passwd | head
 
 Purpose: View system users.
 
--->Permissions
+
+---PERMISSIONS
 
 
 *ls -l
@@ -299,6 +313,10 @@ Purpose: Add execute permission.
 
 When I use it: Before running scripts.
 
+*chmod -x
+chmod -x script.sh
+
+Purpose: Remove execute permission.
 
 *chmod 644
 chmod 644 file.txt
@@ -339,7 +357,7 @@ Result:
 
 -rwx------
 
--->Logs
+---LOGS
 
 
 *View authentication log
@@ -366,7 +384,7 @@ journalctl -n 20
 Purpose: View recent system events.
 
 
--->Processes
+---PROCESSES
 
 
 *ps
@@ -407,7 +425,7 @@ Example:
 kill 4915
 
 
--->System Monitoring
+--SYSTEM MONITORING
 
 
 *df -h
@@ -433,7 +451,8 @@ uname -a
 
 Purpose: Display kernel and system information.
 
--->Networking
+
+---NETWORKING
 
 
 *ip addr
