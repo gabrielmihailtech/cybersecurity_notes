@@ -1,4 +1,5 @@
 *****Linux Cheat Sheet*****
+
 *pwd
 
 Purpose: Display the current working directory.
