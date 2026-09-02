@@ -82,3 +82,71 @@ Starts from root (/).
 /home     -> users
 /etc      -> configuration files
 /var/log  -> logs
+
+## Package Management
+
+sudo apt update
+
+Updates package list.
+
+---
+
+sudo apt upgrade
+
+Upgrades installed packages.
+
+---
+
+sudo apt install package
+
+Installs a package.
+
+Example:
+
+sudo apt install tree
+
+---
+
+sudo apt remove package
+
+Removes a package.
+
+Example:
+
+sudo apt remove tree
+
+---
+
+apt search package
+
+Searches for packages.
+
+Example:
+
+apt search nmap
+
+---
+
+apt show package
+
+Displays package information.
+
+Example:
+
+apt show tree
+
+---
+
+dpkg -l
+
+Lists installed packages.
+
+---
+
+dpkg -l | grep package
+
+Checks if a package is installed.
+
+Example:
+
+dpkg -l | grep tree
