@@ -502,4 +502,47 @@ default via 172.20.32.1 dev eth0
 /etc       -> configuration files
 /var/log   -> log files
 
+---
+---SERVICES
+---
+*service --status-all
+
+Purpose:
+Display system services and their status.
+
+When I use it:
+To identify running and stopped services.
+
+---
+
+*service cron status
+
+Purpose:
+Check a specific service.
+
+When I use it:
+To verify whether a service is active.
+
+Possible Outputs:
+
+active (running)
+inactive (dead)
+
+---
+
+*ps aux | grep service_name
+
+Purpose:
+Find the process associated with a service.
+
+When I use it:
+To verify if a service has a running process.
+
+Example:
+
+ps aux | grep dbus
+
+Output:
+
+dbus-daemon
 
