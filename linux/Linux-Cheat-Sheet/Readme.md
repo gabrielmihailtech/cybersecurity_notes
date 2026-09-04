@@ -546,3 +546,45 @@ Output:
 
 dbus-daemon
 
+---
+--- CRON/ SCHEDULED TASKS
+
+*crontab -l
+
+Purpose:
+Display scheduled tasks for the current user.
+
+When I use it:
+When investigating persistence or automation.
+
+---
+
+*sudo crontab -l
+
+Purpose:
+Display root scheduled tasks.
+
+When I use it:
+When investigating administrative scheduled jobs.
+
+---
+
+*ls /etc/cron*
+
+Purpose:
+Display system-wide cron directories and tasks.
+
+When I use it:
+To identify automated jobs configured by the operating system.
+
+Important Directories:
+
+/etc/cron.hourly
+/etc/cron.daily
+/etc/cron.weekly
+/etc/cron.monthly
+/etc/cron.yearly
+
+SOC Note:
+
+Unexpected cron jobs may indicate persistence mechanisms.
