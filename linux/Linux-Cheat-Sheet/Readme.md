@@ -591,3 +591,76 @@ Important Directories:
 SOC Note:
 
 Unexpected cron jobs may indicate persistence mechanisms.
+
+---
+--- ENVIRONMENT VARIABLES
+---
+env
+
+Purpose:
+Display all environment variables.
+
+When I use it:
+When checking the current Linux environment.
+
+**echo $USER
+
+Purpose:
+Display current user.
+
+When I use it:
+To confirm which account is running commands.
+
+Output Example:
+
+name
+
+**echo $HOME
+
+Purpose:
+Display home directory.
+
+When I use it:
+To quickly find the user's working directory.
+
+Output Example:
+
+/home/name
+
+
+**echo $SHELL
+
+Purpose:
+Display current shell.
+
+When I use it:
+To identify whether Bash, Zsh, or another shell is being used.
+
+Output Example:
+
+/bin/bash
+
+
+**echo $PATH
+
+Purpose:
+Display command search paths.
+
+When I use it:
+To understand where Linux searches for executables.
+
+
+**which command
+
+Purpose:
+Display the full path of an executable.
+
+When I use it:
+To verify which executable is being run.
+
+Example:
+which ls
+
+Output:
+
+/usr/bin/ls
