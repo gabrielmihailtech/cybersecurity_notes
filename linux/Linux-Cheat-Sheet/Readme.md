@@ -1,6 +1,8 @@
 *****Linux Cheat Sheet*****
 
+---
 ---NAVIGATION
+---
 
 *pwd
 
@@ -50,8 +52,9 @@ Purpose: go to parent directory/ go back to previous directory
 *cd ~
 Purpose: go to home directory
 
-
+---
 ---FILES
+---
 
 *mkdir
 mkdir logs
@@ -91,9 +94,9 @@ Purpose: Delete files.
 
 When I use it: When removing unnecessary files.
 
-
+---
 ---READING FILES
-
+---
 
 *cat
 cat auth.log
@@ -148,8 +151,9 @@ When I use it: When files are too large for cat.
 
 *q
 
+---
 ---SEARCH and FILTERING
-
+---
 
 *grep
 grep "admin" auth.log
@@ -198,9 +202,9 @@ Meaning:
 
 Find all Failed entries and count them.
 
-
+---
 ---SORTING and COUNTING
-
+---
 
 *sort
 sort users.txt
@@ -231,9 +235,9 @@ Output:
 2 guest
 2 root
 
-
+---
 ---FINDING FILES
-
+---
 
 *find
 find . -name "*.txt"
@@ -260,9 +264,9 @@ find . -type d
 
 Purpose: Display directories only.
 
-
+---
 ---USERS and GROUPS
-
+---
 
 *whoami
 whoami
@@ -293,9 +297,9 @@ cat /etc/passwd | head
 
 Purpose: View system users.
 
-
+---
 ---PERMISSIONS
-
+---
 
 *ls -l
 ls -l
@@ -357,8 +361,9 @@ Result:
 
 -rwx------
 
+---
 ---LOGS
-
+---
 
 *View authentication log
 tail auth.log
@@ -383,9 +388,9 @@ journalctl -n 20
 
 Purpose: View recent system events.
 
-
+---
 ---PROCESSES
-
+---
 
 *ps
 ps
@@ -424,9 +429,9 @@ Example:
 
 kill 4915
 
-
---SYSTEM MONITORING
-
+---
+---SYSTEM MONITORING
+---
 
 *df -h
 df -h
@@ -451,9 +456,9 @@ uname -a
 
 Purpose: Display kernel and system information.
 
-
+---
 ---NETWORKING
-
+---
 
 *ip addr
 ip addr
@@ -505,6 +510,7 @@ default via 172.20.32.1 dev eth0
 ---
 ---SERVICES
 ---
+
 *service --status-all
 
 Purpose:
@@ -513,7 +519,6 @@ Display system services and their status.
 When I use it:
 To identify running and stopped services.
 
----
 
 *service cron status
 
@@ -528,7 +533,6 @@ Possible Outputs:
 active (running)
 inactive (dead)
 
----
 
 *ps aux | grep service_name
 
@@ -548,6 +552,7 @@ dbus-daemon
 
 ---
 --- CRON/ SCHEDULED TASKS
+---
 
 *crontab -l
 
@@ -557,7 +562,6 @@ Display scheduled tasks for the current user.
 When I use it:
 When investigating persistence or automation.
 
----
 
 *sudo crontab -l
 
@@ -567,7 +571,6 @@ Display root scheduled tasks.
 When I use it:
 When investigating administrative scheduled jobs.
 
----
 
 *ls /etc/cron*
 
