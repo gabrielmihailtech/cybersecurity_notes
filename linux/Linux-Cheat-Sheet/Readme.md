@@ -664,3 +664,106 @@ which ls
 Output:
 
 /usr/bin/ls
+
+---
+---BASH SCRIPTING
+---
+
+**nano script.sh
+
+Purpose:
+Create or edit a Bash script.
+
+---
+
+**#!/bin/bash
+
+Purpose:
+Specify Bash as the interpreter.
+
+When I use it:
+At the beginning of Bash scripts.
+
+---
+
+**chmod 755 script.sh
+
+Purpose:
+Make a script executable.
+
+When I use it:
+Before running a script.
+
+---
+
+**./script.sh
+
+Purpose:
+Execute a script.
+
+When I use it:
+To run commands stored in a script.
+
+---
+
+**NAME="Gab"
+
+Purpose:
+Create a variable.
+
+When I use it:
+To store values for reuse.
+
+---
+
+**echo $NAME
+
+Purpose:
+Display a variable value.
+
+Example Output:
+
+Gab
+
+---
+
+**date
+
+Purpose:
+Display current date and time.
+
+When I use it:
+For logging and reporting.
+
+---
+
+**echo $USER
+
+Purpose:
+Display current user.
+
+Example Output:
+
+Gab
+
+---
+
+**echo $HOME
+
+Purpose:
+Display home directory.
+
+Example Output:
+
+/home/gab
+
+---
+
+**echo $SHELL
+
+Purpose:
+Display current shell.
+
+Example Output:
+
+/bin/bash
