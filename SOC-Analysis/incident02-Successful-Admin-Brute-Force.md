@@ -26,5 +26,5 @@ Brute Force
 Valid Accounts
 
 Conclusion:
-A brute-force attack resulted in successful compromise of the admin account. The attacker subsequently accessed administrative resources, indicating potential unauthorized system access..7
+A brute-force attack resulted in successful compromise of the admin account. The attacker subsequently accessed administrative resources, indicating potential unauthorized system access..
 User john logged out
